@@ -48,13 +48,15 @@ After all these steps, you can start testing this project.
 
 #### Credentials
 For access the django admin controls, you can use the default admin
-
+```
 email: admin@admin.com
 password: admin 
-
+```
 Or, you can use a author role user:
+```
 email: blog@email.com
 password: admin 
+```
 
 #### Autor 
 - Rodrigo Vinicius Vieira Oliveira - [@Rodrigovvo](https://github.com/Rodrigovvo) 
