@@ -4,7 +4,7 @@
 
 First, clone the project:
 
-```http
+```bash
 git clone https://github.com/Rodrigovvo/blog.git
 ```
 
@@ -26,22 +26,22 @@ $ source env/bin/activate
 
 Install the dependencies:
 
-```http
+```bash
 pip install -r requirements.txt
 ```
 
 For default the database used in this project is a sqLite and is already fulfilled. If you need to create a new database, after the creation run this commands:
-```
+```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 For create a new superuser run this command:
-```
+```bash
 python manage.py createsuperuser
 ```
 
 Finaly, run the project:
-```http
+```bash
 python manage.py runserver
 ```
 After all these steps, you can start testing this project. 
